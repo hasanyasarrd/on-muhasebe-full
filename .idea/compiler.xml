@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for accounting" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.27.2/assertj-core-3.27.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava-testlib/31.1-jre/guava-testlib-31.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/measure/jsr-275/0.9.1/jsr-275-0.9.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/openjdk/jol/jol-core/0.16/jol-core-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/objenesis/objenesis/3.3/objenesis-3.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mockito/mockito-inline/4.11.0/mockito-inline-4.11.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/test/micronaut-test-type-pollution/4.6.2/micronaut-test-type-pollution-4.6.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-inject/4.7.7/micronaut-inject-4.7.7.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core/4.7.7/micronaut-core-4.7.7.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="accounting" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accounting" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="accounting" options="-parameters" />
+    </option>
+  </component>
+</project>
