@@ -36,7 +36,7 @@ individual costs, and profit/loss summaries.
 ## 🔌 How to Run
 
 ### 1. Backend
-```bash
+
 cd accounting-backend
 ./mvnw spring-boot:run
 # Runs on http://localhost:8081
