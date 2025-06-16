@@ -48,9 +48,11 @@ npm run start
 # Runs on http://localhost:4200
 
 Example Endpoints
-	•	GET /api/persons
-	•	POST /api/projects
-	•	POST /api/project-persons → Assign person to project
+GET /api/persons
+POST /api/projects
+POST /api/project-persons → Assign person to project
+
+ 
 Developer
 Hasan Yaşar Demirci Computer Engineering Student
 
