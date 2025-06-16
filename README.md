@@ -54,5 +54,6 @@ POST /api/project-persons → Assign person to project
 
  
 Developer
-Hasan Yaşar Demirci Computer Engineering Student
+Hasan Yaşar Demirci 
+Computer Engineering Student
 
