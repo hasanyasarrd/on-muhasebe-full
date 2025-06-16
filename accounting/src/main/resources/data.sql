@@ -1,5 +1,3 @@
-
-
 INSERT INTO persons (name, role, monthly_cost)
 SELECT 'Kübra S.', 'Project Manager', 12000
     WHERE NOT EXISTS (
