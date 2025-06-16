@@ -4,13 +4,13 @@ This project is a simple full-stack accounting system designed to manage persons
 projects, and their financial relationships. It allows tracking of monthly project income,
 individual costs, and profit/loss summaries.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Backend:** Java 17, Spring Boot, JPA/Hibernate, PostgreSQL
 - **Frontend:** Angular 16+, HTML, SCSS, TypeScript
 - **Build Tools:** Maven, IntelliJ IDEA, Node.js/NPM
 
-## 🔧 Features
+##  Features
 
 - Person & Project CRUD operations
 - Assign persons to projects
@@ -19,7 +19,7 @@ individual costs, and profit/loss summaries.
 - Responsive Angular UI
 - CORS-enabled API
 
-## 📁 Project Structure
+##  Project Structure
 
 ### Backend (Spring Boot)
 - `/src/main/java/com/project/accounting`
@@ -33,27 +33,38 @@ individual costs, and profit/loss summaries.
 - `/src/app/services`: HTTP service classes
 - `/src/app/models`: TypeScript interfaces for models
 
-## 🔌 How to Run
+##  How to Run
 
 ### 1. Backend
 
 cd accounting-backend
+
 ./mvnw spring-boot:run
-# Runs on http://localhost:8081
+
+ Runs on http://localhost:8081
 
 ### 2. Frontend
-cd on-muhasebe-app
-npm install
-npm run start
-# Runs on http://localhost:4200
 
-Example Endpoints
+cd on-muhasebe-app
+
+npm install
+
+npm run start
+
+Runs on http://localhost:4200
+
+#Example Endpoints
+
 GET /api/persons
+
 POST /api/projects
+
 POST /api/project-persons → Assign person to project
 
  
-Developer
+#Developer
+
 Hasan Yaşar Demirci 
+
 Computer Engineering Student
 
